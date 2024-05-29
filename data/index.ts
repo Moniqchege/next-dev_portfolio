@@ -72,14 +72,22 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
+    title: "Brainwave AI Chat App",
+    des: "Explore the Pssibilities of AI Chatting with Brainwave using NextJS.",
     img: "/p1.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    link: "https://brainwave-lilac-one.vercel.app/",
   },
   {
     id: 2,
+    title: "Putuk Travel Website",
+    des: "Putuk Travel Website is a comprehensive platform for guides, tips, and booking services.",
+    img: "/p1.svg",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+    link: "https://travel-weld-eight.vercel.app/",
+  },
+  {
+    id: 3,
     title: "Yoom - Video Conferencing App",
     des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
     img: "/p2.svg",
@@ -87,7 +95,7 @@ export const projects = [
     link: "/ui.yoom.com",
   },
   {
-    id: 3,
+    id: 4,
     title: "AI Image SaaS - Canva Application",
     des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
     img: "/p3.svg",
@@ -95,7 +103,15 @@ export const projects = [
     link: "/ui.aiimg.com",
   },
   {
-    id: 4,
+    id: 5,
+    title: "Horizon Bank App",
+    des: "Horizon App seamlessly connects and manage multiple bank accounts in one convinient platform",
+    img: "/p3.svg",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+    link: "https://next-banking-app.vercel.app",
+  },
+  {
+    id: 6,
     title: "Animated Apple Iphone 3D Website",
     des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
     img: "/p4.svg",
@@ -107,33 +123,33 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+    "Working with Monicah was a fantastic experience. Her expertise in frontend development, coupled with her unwavering commitment to quality, ensured our project was a success. Monicah's innovative approach and keen attention to detail make her an invaluable asset for any team.",
+    name: "Jean Franco Rivera",
+    title: "Director of Cubix Technologies",
+  },
+  {
+    quote:
+    "Monicah consistently exceeded our expectations with her outstanding frontend development skills. Her ability to turn complex requirements into seamless, user-friendly interfaces was impressive. Monicah's dedication and collaborative spirit make her the perfect addition to any project.",
+    name: "Sarah Migwi",
+    title: "Director of Synacor Consortium Limited",
+  },
+  {
+    quote:
+    "Collaborating with Monicah was an absolute pleasure. Her professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Monicah's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and brand, Monicah is the ideal partner.",
+    name: "Isaac Juma",
+    title: "Head of Eujim Solutions Limited",
+  },
+  {
+    quote:
+    "I highly recommend Monicah for any frontend development role. Her technical prowess, creativity, and dedication to excellence were evident in every aspect of our collaboration. Monicah's passion for her work and her ability to deliver exceptional results make her a top choice for any team.",
     name: "Michael Johnson",
     title: "Director of AlphaStream Technologies",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Collaborating with Monicah was an absolute pleasure. Her professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Monicah's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Monicah is the ideal partner.",
+    name: "Jay Kurani",
+    title: "Director at Ajackus",
   },
 ];
 
@@ -180,22 +196,22 @@ export const workExperience = [
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-    className: "md:col-span-2", // change to md:col-span-2
+    title: "Mobile App Dev",
+    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native at Cubix.",
+    className: "md:col-span-2",
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
     title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    className: "md:col-span-2", // change to md:col-span-2
+    desc: "Helped with the development of a mobile app for a client, from initial concept to deployment on both play & app stores.",
+    className: "md:col-span-2",
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "Frontend Developer",
+    desc: "Developed and maintained user-experiences features using modern frontend technologies at Ajackus.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },
